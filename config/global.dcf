@@ -4,8 +4,10 @@ cache_loading: TRUE
 recursive_loading: FALSE
 munging: TRUE
 logging: FALSE
-load_libraries: FALSE
-libraries: reshape, plyr, dplyr, ggplot2, stringr, lubridate
+load_libraries: TRUE
+libraries: reshape, plyr, dplyr, ggplot2, stringr, 
+  lubridate, data.table, zoo, e1071, lmtest, 
+  neuralnet, caret, corrplot, RColorBrewer, MASS
 as_factors: TRUE
-data_tables: FALSE
+data_tables: TRUE
 attach_internal_libraries: FALSE
